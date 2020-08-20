@@ -1,0 +1,294 @@
+/* 1) тип блока
+   2) позиционирование блока
+   3) текстовые стили
+   4) анимации
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2{
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding-top: 120px;
+  margin : 0;
+}
+
+img {
+  width: 100%;
+  height: 387px;
+}
+
+p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  border: 0;
+  background-color: unset;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.transform-90-deg {
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: flex-end;
+}
+
+.wrapper {
+  max-width: 1445px;
+  padding: 0 17.4%;
+}
+
+.portfolio {
+  max-width: 1445px;
+  padding: 0 17.4%;
+}
+
+header {
+  position: sticky; 
+  top: 0;
+  background: #fff;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 2rem 0;
+  border-bottom: 1px solid #828282;
+}
+
+.main-section > main > section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.main-section > main > section h1,
+.main-section > main > section div {
+  align-self: flex-end;
+}
+
+.man-img-photo {
+  background-image: url('./img/BSPP2266.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 387px;
+}
+
+.aboutMe{
+  background: #F6F6F6;
+}
+
+.info-about-me{
+  max-width: 51.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 17.69px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gilroy-Medium;
+  text-align: center;
+}
+
+.info-about-me p{
+  margin-bottom: 60px;
+}
+
+.info-about-me p:last-child {
+  margin-bottom: 107px;
+}
+
+.skills{
+  max-width: 1445px;;
+  padding : 0 17.4%;
+}
+
+.skills h2{
+  padding-top: 91px;
+}
+
+.skills p{
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gilroy-Medium;
+  text-align: center;
+  padding-top: 69.1px;
+  padding-bottom: 83.49px;
+}
+
+.icon_PS {
+  background-image: url('./img/Vector_PS.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 89px; 
+}
+.icon_AI{
+  background-image: url('./img/Vector_AI.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 89px;
+}
+
+.icon_AE{
+  background-image: url('./img/Vector_AE.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 89px;
+}
+
+.icon_Figma{
+  background-image: url('./img/Vector_Figma.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 89px;
+}
+
+.programs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.programs p{
+  padding-top : 23.03px;
+}
+
+.portfolio{
+  background: #F6F6F6;
+  max-width: 1445px;;
+  padding : 0 17.4% 96px;
+  text-align: center;
+}
+
+.portfolio a{
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.fashion_store {
+  background-image: url('./img/fashion_store.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+  margin-top: 47px;
+  margin-bottom: 45px;
+}
+
+.reebok_store {
+  background-image: url('./img/reebok_store.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 522px;
+  margin-top: 99px;
+  margin-bottom: 45px;
+}
+
+.braun_store {
+  background-image: url('./img/braun_store.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 522px;
+  margin-top: 99px;
+  margin-bottom: 45px;
+}
+
+.contacts{
+  max-width: 1445px;
+  padding : 0 17.4%;
+  text-align: center;
+}
+
+.contacts h2{
+  padding-top: 114px;
+  padding-bottom: 20px;
+}
+
+.contacts p{
+  max-width: 34%;
+  margin: 0 auto;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.linkedin{
+  background-image: url('./img/linkedin.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.instagram{
+  background-image: url('./img/instagram.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.behance{
+  background-image: url('./img/behance.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.dribble{
+  background-image: url('./img/dribble.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.applications{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.like_me {
+  max-width: 17%;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+
+
+

@@ -3,6 +3,9 @@
    3) текстовые стили
    4) анимации
 */
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -21,6 +24,9 @@ ul {
 
 h1 {
   margin: 0;
+  font-family: Gilroy-Bold;
+  font-size: 47.3392px;
+  line-height: 59px;
 }
 
 h2{
@@ -50,12 +56,12 @@ button {
   background-color: unset;
 }
 
-button:hover {
+button ul:hover {
   cursor: pointer;
 }
 
 .transform-90-deg {
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateY(-20%);
   display: flex;
   align-items: flex-end;
 }
@@ -65,15 +71,20 @@ button:hover {
   padding: 0 17.4%;
 }
 
-.portfolio {
-  max-width: 1445px;
-  padding: 0 17.4%;
-}
-
 header {
   position: sticky; 
   top: 0;
   background: #fff;
+  max-width: 1445px;
+  padding: 0 17.4%;
+}
+
+header a{
+  color:#828282;
+}
+
+header a:hover{
+  color: black;
 }
 
 header > nav > ul {
@@ -83,6 +94,7 @@ header > nav > ul {
   list-style: none;
   padding: 2rem 0;
   border-bottom: 1px solid #828282;
+  font-family: Gilroy-Bold;
 }
 
 .main-section > main > section {
@@ -95,6 +107,13 @@ header > nav > ul {
 .main-section > main > section div {
   align-self: flex-end;
 }
+
+.designer {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 
 .man-img-photo {
   background-image: url('./img/BSPP2266.png');
@@ -147,31 +166,26 @@ header > nav > ul {
   padding-bottom: 83.49px;
 }
 
-.icon_PS {
-  background-image: url('./img/Vector_PS.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 89px; 
-}
-.icon_AI{
-  background-image: url('./img/Vector_AI.png');
+.icon{
   background-position: center center;
   background-repeat: no-repeat;
   height: 89px;
+}
+
+.icon_PS {
+  background-image: url('./img/Vector_PS.svg');
+}
+
+.icon_AI{
+  background-image: url('./img/Vector_AI.svg');
 }
 
 .icon_AE{
-  background-image: url('./img/Vector_AE.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 89px;
+  background-image: url('./img/Vector_AE.svg');
 }
 
 .icon_Figma{
-  background-image: url('./img/Vector_Figma.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 89px;
+  background-image: url('./img/Vector_Figma.svg');
 }
 
 .programs{
@@ -197,40 +211,34 @@ header > nav > ul {
   line-height: 22px;
 }
 
-.fashion_store {
-  background-image: url('./img/fashion_store.png');
+.example{
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  height: 522px;
+  margin-top: 99px;
+  margin-bottom: 45px;
+}
+
+.fashion_store {
+  background-image: url('./img/fashion_store.png');
   height: 510px;
   margin-top: 47px;
-  margin-bottom: 45px;
 }
 
 .reebok_store {
   background-image: url('./img/reebok_store.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 522px;
-  margin-top: 99px;
-  margin-bottom: 45px;
 }
 
 .braun_store {
   background-image: url('./img/braun_store.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 522px;
-  margin-top: 99px;
-  margin-bottom: 45px;
 }
 
 .contacts{
   max-width: 1445px;
   padding : 0 17.4%;
   text-align: center;
+  font-family: Gilroy-Medium;
 }
 
 .contacts h2{
@@ -240,44 +248,49 @@ header > nav > ul {
 
 .contacts p{
   max-width: 34%;
-  margin: 0 auto;
-  font-family: Gilroy-Medium;
+  margin: 0 auto 29px;
   font-size: 18px;
   line-height: 22px;
 }
 
-.linkedin{
-  background-image: url('./img/linkedin.png');
+.contacts button{
+  background: #070707;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  margin-bottom: 86px;
+}
+
+
+.app{
   background-position: center center;
   background-repeat: no-repeat;
   height: 40px;
+  width: 100%;
+}
+
+.linkedin{
+  background-image: url('./img/linkedin.png');
 }
 
 .instagram{
   background-image: url('./img/instagram.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 40px;
 }
 
 .behance{
   background-image: url('./img/behance.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 40px;
 }
 
 .dribble{
   background-image: url('./img/dribble.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 40px;
 }
 
 .applications{ 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0px 190px 46px;
 }
 
 .like_me {
@@ -292,3 +305,23 @@ header > nav > ul {
 
 
 
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

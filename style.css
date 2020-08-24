@@ -22,6 +22,10 @@ ul {
   margin: 0;
 }
 
+ul a{
+  text-decoration: none;
+}
+
 h1 {
   margin: 0;
   font-family: Gilroy-Bold;
@@ -57,7 +61,7 @@ button {
 }
 
 /* TODO: What is it ? */
-button ul:hover {
+ul:hover {
   cursor: pointer;
 }
 
@@ -166,10 +170,15 @@ header > nav > ul {
   padding-bottom: 83.49px;
 }
 
+.programs div{
+  width: 100%;
+} 
+
 .icon {
   background-position: center center;
   background-repeat: no-repeat;
   height: 89px;
+  width: 100%;
 }
 
 .icon_PS {
@@ -198,26 +207,30 @@ header > nav > ul {
   padding-top: 23.03px;
 }
 
-.portfolio {
+.wrapper_portfolio {
   background: #f6f6f6;
   max-width: 1445px;
   padding: 0 17.4% 96px;
   text-align: center;
 }
 
-.portfolio a {
+.wrapper_portfolio a {
   font-family: Gilroy-Medium;
   font-size: 18px;
   line-height: 22px;
 }
 
-.example {
+.wrapper_portfolio div {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 522px;
   margin-top: 99px;
   margin-bottom: 45px;
+}
+
+.wrapper_portfolio{
+  text-align: center;
 }
 
 .fashion_store {
@@ -260,9 +273,15 @@ header > nav > ul {
   padding: 0.5rem 2rem;
   border-radius: 20px;
   margin-bottom: 86px;
+  transition: 200ms;
 }
 
-.app {
+.contacts button:hover{
+  cursor: pointer;
+  background: aquamarine;
+}
+
+.applications div{
   background-position: center center;
   background-repeat: no-repeat;
   height: 40px;
@@ -291,7 +310,7 @@ header > nav > ul {
   justify-content: space-around;
   padding: 0px 190px 46px;
 }
-
+ 
 .like_me {
   max-width: 17%;
   font-family: Gilroy-Medium;

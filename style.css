@@ -29,13 +29,13 @@ h1 {
   line-height: 59px;
 }
 
-h2{
+h2 {
   font-family: Gilroy-Bold;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
   padding-top: 120px;
-  margin : 0;
+  margin: 0;
 }
 
 img {
@@ -56,6 +56,7 @@ button {
   background-color: unset;
 }
 
+/* TODO: What is it ? */
 button ul:hover {
   cursor: pointer;
 }
@@ -72,18 +73,18 @@ button ul:hover {
 }
 
 header {
-  position: sticky; 
+  position: sticky;
   top: 0;
   background: #fff;
   max-width: 1445px;
   padding: 0 17.4%;
 }
 
-header a{
-  color:#828282;
+header a {
+  color: #828282;
 }
 
-header a:hover{
+header a:hover {
   color: black;
 }
 
@@ -114,20 +115,19 @@ header > nav > ul {
   line-height: 22px;
 }
 
-
 .man-img-photo {
-  background-image: url('./img/BSPP2266.png');
+  background-image: url("./img/BSPP2266.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 387px;
 }
 
-.aboutMe{
-  background: #F6F6F6;
+.aboutMe {
+  background: #f6f6f6;
 }
 
-.info-about-me{
+.info-about-me {
   max-width: 51.4%;
   display: flex;
   flex-direction: column;
@@ -140,7 +140,7 @@ header > nav > ul {
   text-align: center;
 }
 
-.info-about-me p{
+.info-about-me p {
   margin-bottom: 60px;
 }
 
@@ -148,16 +148,16 @@ header > nav > ul {
   margin-bottom: 107px;
 }
 
-.skills{
-  max-width: 1445px;;
-  padding : 0 17.4%;
+.skills {
+  max-width: 1445px;
+  padding: 0 17.4%;
 }
 
-.skills h2{
+.skills h2 {
   padding-top: 91px;
 }
 
-.skills p{
+.skills p {
   font-size: 18px;
   line-height: 22px;
   font-family: Gilroy-Medium;
@@ -166,52 +166,52 @@ header > nav > ul {
   padding-bottom: 83.49px;
 }
 
-.icon{
+.icon {
   background-position: center center;
   background-repeat: no-repeat;
   height: 89px;
 }
 
 .icon_PS {
-  background-image: url('./img/Vector_PS.svg');
+  background-image: url("./img/Vector_PS.svg");
 }
 
-.icon_AI{
-  background-image: url('./img/Vector_AI.svg');
+.icon_AI {
+  background-image: url("./img/Vector_AI.svg");
 }
 
-.icon_AE{
-  background-image: url('./img/Vector_AE.svg');
+.icon_AE {
+  background-image: url("./img/Vector_AE.svg");
 }
 
-.icon_Figma{
-  background-image: url('./img/Vector_Figma.svg');
+.icon_Figma {
+  background-image: url("./img/Vector_Figma.svg");
 }
 
-.programs{
+.programs {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.programs p{
-  padding-top : 23.03px;
+.programs p {
+  padding-top: 23.03px;
 }
 
-.portfolio{
-  background: #F6F6F6;
-  max-width: 1445px;;
-  padding : 0 17.4% 96px;
+.portfolio {
+  background: #f6f6f6;
+  max-width: 1445px;
+  padding: 0 17.4% 96px;
   text-align: center;
 }
 
-.portfolio a{
+.portfolio a {
   font-family: Gilroy-Medium;
   font-size: 18px;
   line-height: 22px;
 }
 
-.example{
+.example {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -221,39 +221,39 @@ header > nav > ul {
 }
 
 .fashion_store {
-  background-image: url('./img/fashion_store.png');
+  background-image: url("./img/fashion_store.png");
   height: 510px;
   margin-top: 47px;
 }
 
 .reebok_store {
-  background-image: url('./img/reebok_store.png');
+  background-image: url("./img/reebok_store.png");
 }
 
 .braun_store {
-  background-image: url('./img/braun_store.png');
+  background-image: url("./img/braun_store.png");
 }
 
-.contacts{
+.contacts {
   max-width: 1445px;
-  padding : 0 17.4%;
+  padding: 0 17.4%;
   text-align: center;
   font-family: Gilroy-Medium;
 }
 
-.contacts h2{
+.contacts h2 {
   padding-top: 114px;
   padding-bottom: 20px;
 }
 
-.contacts p{
+.contacts p {
   max-width: 34%;
   margin: 0 auto 29px;
   font-size: 18px;
   line-height: 22px;
 }
 
-.contacts button{
+.contacts button {
   background: #070707;
   color: white;
   font-size: 1rem;
@@ -262,31 +262,30 @@ header > nav > ul {
   margin-bottom: 86px;
 }
 
-
-.app{
+.app {
   background-position: center center;
   background-repeat: no-repeat;
   height: 40px;
   width: 100%;
 }
 
-.linkedin{
-  background-image: url('./img/linkedin.png');
+.linkedin {
+  background-image: url("./img/linkedin.png");
 }
 
-.instagram{
-  background-image: url('./img/instagram.png');
+.instagram {
+  background-image: url("./img/instagram.png");
 }
 
-.behance{
-  background-image: url('./img/behance.png');
+.behance {
+  background-image: url("./img/behance.png");
 }
 
-.dribble{
-  background-image: url('./img/dribble.png');
+.dribble {
+  background-image: url("./img/dribble.png");
 }
 
-.applications{ 
+.applications {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -302,26 +301,27 @@ header > nav > ul {
   color: #828282;
 }
 
-
-
-
-
 @font-face {
-	font-family: 'Gilroy-Medium';
-	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("./fonts/gilroy-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/gilroy-medium.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("./fonts/gilroy-medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium")
+      format("svg"); /* Chrome < 4, Legacy iOS */
 }
 
+/* TODO: Relative path */
 @font-face {
-	font-family: 'Gilroy-Bold';
-	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-bold.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-bold.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-bold.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/gilroy-bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-bold.svg#gilroy-bold")
+      format("svg"); /* Chrome < 4, Legacy iOS */
 }

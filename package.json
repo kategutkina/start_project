@@ -7,5 +7,9 @@
     "start": "browser-sync start --server --files '*'"
   },
   "author": "Kate Gutkina",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "prettier": "^2.0.5"
+  }
 }
